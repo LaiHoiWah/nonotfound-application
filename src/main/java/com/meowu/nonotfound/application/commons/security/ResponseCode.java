@@ -1,7 +1,5 @@
 package com.meowu.nonotfound.application.commons.security;
 
-public interface ResponseCode{
+public interface ResponseCode extends com.meowu.commons.security.response.ResponseCode{
 
-    int SUCCESS = 200;
-    int FAILURE = 500;
 }
