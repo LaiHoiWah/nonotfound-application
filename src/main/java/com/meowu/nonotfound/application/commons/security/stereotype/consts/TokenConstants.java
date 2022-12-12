@@ -4,6 +4,8 @@ import java.util.concurrent.TimeUnit;
 
 public interface TokenConstants{
 
+    String HTTP_TOKEN_HEADER = "token";
+
     String WEB_TOKEN_CACHE_NAME = "token:web:";
 
     // 2 hours
